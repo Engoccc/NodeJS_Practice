@@ -8,8 +8,8 @@ A practice use Express + NodeJS + Mongodb
 # Day1
 ## Progress
 ## Problems
-- [x]  -[Unsolved function or method require()](#Unsolved function or method require())
-- [x]  -[Unsolved function or method get()](#Unsolved function or method get())
+- [x] Unsolved function or method require() - [require](#Unsolved function or method require())
+- [x] Unsolved function or method get() - [get](#Unsolved function or method get())
 
 ### Unsolved function or method require()
 In IDEA: File -> Settings -> Languages & Frameworks -> Node.js and NPM  
