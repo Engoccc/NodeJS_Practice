@@ -1,6 +1,6 @@
 # NodeJS_Practice
 A practice use Express + NodeJS + Mongodb  
-- [express official document](#http://expressjs.com/)
+- [Express official document](http://expressjs.com/)
 
 - [Day1](#Day1)
   - [Progress](#Progress)
