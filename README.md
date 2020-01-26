@@ -1,5 +1,6 @@
 # NodeJS_Practice
-A practice use Express + NodeJS + Mongodb
+A practice use Express + NodeJS + Mongodb  
+- [express official document](#http://expressjs.com/)
 
 - [Day1](#Day1)
   - [Progress](#Progress)
@@ -7,6 +8,15 @@ A practice use Express + NodeJS + Mongodb
 
 # Day1
 ## Progress
+To make sure the server with express works well:  
+
+- Build the basic webserver.
+- Build routes.
+- Insert ejs template engine.
+- Learned template fragment.
+- Build some middlewares.
+- Error handling.
+
 ## Problems
 - [x] [Unsolved function or method require()](#Unsolved-function-or-method-require())
 - [x] [Unsolved function or method get()](#Unsolved-function-or-method-get())
@@ -25,4 +35,4 @@ Markdown should write like this:
 ```
 - [x] [Link GitHub task link](#Link-GitHub-task-list)
 ```
-A `-` between two words.
+A `-` is between two words.
