@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd28b251-dc24-4a29-a0c8-859b7d1ac68a" name="Default Changelist" comment="" />
+    <list default="true" id="dd28b251-dc24-4a29-a0c8-859b7d1ac68a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/users.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NodeJS_Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NodeJS_Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +36,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1WwGOsiedoqUb8ryyxJmyQQ5mKt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,8 +49,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/ejs" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580053214419</updated>
-      <workItem from="1580053216663" duration="2118000" />
+      <workItem from="1580053216663" duration="12732000" />
     </task>
     <servers />
   </component>
@@ -67,9 +83,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1080" y="322" key="SettingsEditor" timestamp="1580055022838">
+    <state x="-810" y="435" key="FileChooserDialogImpl" timestamp="1580063003143">
       <screen x="-1080" y="-172" width="1080" height="1880" />
     </state>
-    <state x="-1080" y="322" key="SettingsEditor/0.0.1920.1040/-1080.-172.1080.1880@-1080.-172.1080.1880" timestamp="1580055022838" />
+    <state x="-810" y="435" key="FileChooserDialogImpl/0.0.1920.1040/-1080.-172.1080.1880@-1080.-172.1080.1880" timestamp="1580063003143" />
+    <state x="-1080" y="295" key="SettingsEditor" timestamp="1580069923626">
+      <screen x="-1080" y="-172" width="1080" height="1880" />
+    </state>
+    <state x="-1080" y="295" key="SettingsEditor/0.0.1920.1040/-1080.-172.1080.1880@-1080.-172.1080.1880" timestamp="1580069923626" />
+    <state x="-961" y="256" width="840" height="1034" key="search.everywhere.popup" timestamp="1580070204216">
+      <screen x="-1080" y="-172" width="1080" height="1880" />
+    </state>
+    <state x="-961" y="256" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/-1080.-172.1080.1880@-1080.-172.1080.1880" timestamp="1580070204216" />
   </component>
 </project>

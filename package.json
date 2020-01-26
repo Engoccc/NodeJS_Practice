@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Engoccc/NodeJS_Practice#readme",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.14.0"
   }
 }
