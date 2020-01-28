@@ -2,12 +2,20 @@
 A practice use Express + NodeJS + Mongodb  
 - [Express official document](http://expressjs.com/)
 
+- [Day2](#Day2)
+  - [Progress](#Progress-day2)
 - [Day1](#Day1)
-  - [Progress](#Progress)
-  - [Problems](#Problems)
+  - [Progress](#Progress-day1)
+  - [Problems](#Problems-day1)
+
+# Day2
+## Progress-day2
+- Build middleware `check` to judge whether user signin or not. So that can transfer to corresponding page.
+- Build a route `index` as routes' index. Then build some routes like `signup, signout` etc.
+
 
 # Day1
-## Progress
+## Progress-day1
 To make sure the server with express works well:  
 
 - Build the basic webserver.
@@ -17,7 +25,7 @@ To make sure the server with express works well:
 - Build some middlewares.
 - Error handling.
 
-## Problems
+## Problems-day1
 - [x] [Unsolved function or method require()](#Unsolved-function-or-method-require())
 - [x] [Unsolved function or method get()](#Unsolved-function-or-method-get())
 - [x] [Link GitHub task link](#Link-GitHub-task-list)
