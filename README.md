@@ -2,9 +2,18 @@
 A practice use Express + NodeJS + Mongodb  
 - [Express official document](http://expressjs.com/)
 
+- [Day2](#Day2)
+  - [Progress](#Progress)
+  - [Problems](#Problems)
 - [Day1](#Day1)
   - [Progress](#Progress)
   - [Problems](#Problems)
+
+# Day2
+## Progress
+- Build middleware `check` to judge whether user signin or not. So that can transfer to corresponding page.
+- Build a route `index` as routes' index. Then build some routes like `signup, signout` etc.
+
 
 # Day1
 ## Progress
