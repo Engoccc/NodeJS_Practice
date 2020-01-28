@@ -2,7 +2,7 @@
   "name": "nodejs_practice",
   "version": "1.0.0",
   "description": "nodejs + express + mongodb",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,22 @@
   },
   "homepage": "https://github.com/Engoccc/NodeJS_Practice#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "config-lite": "^2.1.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
     "ejs": "^3.0.1",
-    "express": "^4.14.0"
+    "express": "^4.17.1",
+    "express-formidable": "git+https://github.com/utatti/express-formidable.git",
+    "express-session": "^1.17.0",
+    "express-winston": "^4.0.2",
+    "marked": "^0.8.0",
+    "moment": "^2.24.0",
+    "mongolass": "^4.4.6",
+    "mongoose": "^5.8.10",
+    "multer": "^1.4.2",
+    "objectid-to-timestamp": "^1.3.0",
+    "sha1": "^1.1.1",
+    "winston": "^3.2.1"
   }
 }
