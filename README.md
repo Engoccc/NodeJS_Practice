@@ -4,6 +4,7 @@ A practice use Express + NodeJS + Mongodb
 
 - [Day3](#Day3)
   - [Progress](#Progress-day3)
+  - [Problems](#Problems-day3)
 - [Day2](#Day2)
   - [Progress](#Progress-day2)
 - [Day1](#Day1)
@@ -13,6 +14,10 @@ A practice use Express + NodeJS + Mongodb
 # Day3
 ## Progress-day3
 - Add some page design. style.css, header.ejs, footer.ejs, etc.
+
+## Problems-day3
+- const: constant; var: variable.
+- __dirname: it gives you the path of the currently running file.
 
 # Day2
 ## Progress-day2
