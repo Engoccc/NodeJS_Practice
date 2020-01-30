@@ -2,14 +2,14 @@ const express = require('express');
 const router = express.Router();
 const checkLogin = require('../middlewares/check').checkLogin;
 
-// POST /comments 创建一条留言
+// POST /comments build a comment
 router.post('/', checkLogin, function (req, res, next) {
-    res.send('创建留言')
+    res.send('build a comment')
 });
 
-// GET /comments/:commentId/remove 删除一条留言
+// GET /comments/:commentId/remove delete a comment
 router.get('/:commentId/remove', checkLogin, function (req, res, next) {
-    res.send('删除留言')
+    res.send('delete a comment')
 });
 
 module.exports = router;

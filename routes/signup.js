@@ -3,14 +3,14 @@ const router = express.Router();
 
 const checkNotLogin = require('../middlewares/check').checkNotLogin;
 
-// GET /signup 注册页
+// GET /signup signup page
 router.get('/', checkNotLogin, function (req, res, next) {
-    res.send('注册页')
+    res.send('Sign up page')
 });
 
-// POST /signup 用户注册
+// POST /signup user sign up
 router.post('/', checkNotLogin, function (req, res, next) {
-    res.send('注册')
+    res.send('Sign up')
 });
 
 module.exports = router;

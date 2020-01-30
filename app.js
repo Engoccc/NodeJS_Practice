@@ -9,33 +9,47 @@ const pkg = require('./package');
 
 const app = express();
 
-// 设置模板目录
+// build template module
 app.set('views', path.join(__dirname, 'views'));
-// 设置模板引擎为 ejs
+// module engine is ejs
 app.set('view engine', 'ejs');
 
-// 设置静态文件目录
+// set static files content
 app.use(express.static(path.join(__dirname, 'public')));
-// session 中间件
+// session middleware
 app.use(session({
-    name: config.session.key, // 设置 cookie 中保存 session id 的字段名称
-    secret: config.session.secret, // 通过设置 secret 来计算 hash 值并放在 cookie 中，使产生的 signedCookie 防篡改
-    resave: true, // 强制更新 session
-    saveUninitialized: false, // 设置为 false，强制创建一个 session，即使用户未登录
+    name: config.session.key, // set name of session id saved in cookie
+    secret: config.session.secret, // by setting secret to calculate the hash value and put it in the cookie, the generated signed-cookie is tamper proof
+    resave: true, // update session compulsorily
+    saveUninitialized: false, // start with an unsigned status
     cookie: {
-        maxAge: config.session.maxAge// 过期时间，过期后 cookie 中的 session id 自动删除
+        maxAge: config.session.maxAge// expiration time. after expiration, the session ID in the cookie is automatically deleted
     },
-    store: new MongoStore({// 将 session 存储到 mongodb
-        url: config.mongodb// mongodb 地址
+    store: new MongoStore({// store session to mongodb
+        url: config.mongodb// mongodb address
     })
 }));
-// flash 中间件，用来显示通知
+// flash middleware, to demonstrate notice
 app.use(flash());
 
-// 路由
+// set template global constant
+app.locals.blog = {
+    title: pkg.name,
+    description: pkg.description
+}
+
+// three variables required to add a template
+app.use(function (req, res, next) {
+    res.locals.user = req.session.user
+    res.locals.success = req.flash('success').toString()
+    res.locals.error = req.flash('error').toString()
+    next()
+})
+
+// route
 routes(app);
 
-// 监听端口，启动程序
+// listen port, start program
 app.listen(config.port, function () {
     console.log(`${pkg.name} listening on port ${config.port}`)
 });

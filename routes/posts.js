@@ -3,40 +3,40 @@ const router = express.Router();
 
 const checkLogin = require('../middlewares/check').checkLogin;
 
-// GET /posts 所有用户或者特定用户的文章页
+// GET /posts article page for all users or specific user
 //   eg: GET /posts?author=xxx
 router.get('/', function (req, res, next) {
-    res.send('主页')
+    res.send('Homepage')
 });
 
-// POST /posts/create 发表一篇文章
+// POST /posts/create post an article
 router.post('/create', checkLogin, function (req, res, next) {
-    res.send('发表文章')
+    res.send('Post an article')
 });
 
-// GET /posts/create 发表文章页
+// GET /posts/create create an article page
 router.get('/create', checkLogin, function (req, res, next) {
-    res.send('发表文章页')
+    res.send('Create an article page')
 });
 
-// GET /posts/:postId 单独一篇的文章页
+// GET /posts/:postId a separate article page
 router.get('/:postId', function (req, res, next) {
-    res.send('文章详情页')
+    res.send('Article details page')
 });
 
-// GET /posts/:postId/edit 更新文章页
+// GET /posts/:postId/edit update article page
 router.get('/:postId/edit', checkLogin, function (req, res, next) {
-    res.send('更新文章页')
+    res.send('Update article page')
 });
 
-// POST /posts/:postId/edit 更新一篇文章
+// POST /posts/:postId/edit update an article
 router.post('/:postId/edit', checkLogin, function (req, res, next) {
-    res.send('更新文章')
+    res.send('Update an article')
 });
 
-// GET /posts/:postId/remove 删除一篇文章
+// GET /posts/:postId/remove delete an article
 router.get('/:postId/remove', checkLogin, function (req, res, next) {
-    res.send('删除文章')
+    res.send('Delete an article')
 });
 
 module.exports = router;
