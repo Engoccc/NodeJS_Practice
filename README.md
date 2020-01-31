@@ -2,6 +2,8 @@
 A practice use Express + NodeJS + Mongodb  
 - [Express official document](http://expressjs.com/)
 
+- [Day4](#Day4)
+  - [Progress](#Progress-day4)
 - [Day3](#Day3)
   - [Progress](#Progress-day3)
   - [Problems](#Problems-day3)
@@ -10,6 +12,13 @@ A practice use Express + NodeJS + Mongodb
 - [Day1](#Day1)
   - [Progress](#Progress-day1)
   - [Problems](#Problems-day1)
+
+# Day4
+## Progress-day4
+- Finish the sign up page.
+  - Build a collection for user information.
+  - Connect mongodb and the server.
+  - app.js -> routes(index) -> routes(posts) -> middleware(check.js) -> routes(signup) if success -> models(users.js) -> connect with mongodb  
 
 # Day3
 ## Progress-day3
