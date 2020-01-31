@@ -32,19 +32,25 @@ app.use(session({
 // flash middleware, to demonstrate notice
 app.use(flash());
 
+//handle form and upload middleware
+app.use(require('express-formidable')({
+    uploadDir: path.join(__dirname, 'public/img'),//upload files content
+    keepExtensions: true//remain suffix
+}));
+
 // set template global constant
 app.locals.blog = {
     title: pkg.name,
     description: pkg.description
-}
+};
 
 // three variables required to add a template
 app.use(function (req, res, next) {
-    res.locals.user = req.session.user
-    res.locals.success = req.flash('success').toString()
-    res.locals.error = req.flash('error').toString()
+    res.locals.user = req.session.user;
+    res.locals.success = req.flash('success').toString();
+    res.locals.error = req.flash('error').toString();
     next()
-})
+});
 
 // route
 routes(app);

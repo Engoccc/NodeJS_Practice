@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd28b251-dc24-4a29-a0c8-859b7d1ac68a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/components/nav-setting.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/components/nav.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/components/notification.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/footer.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mongo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/posts.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/signup.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/check.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/comments.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/signin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/signout.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/signout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/signup.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -88,7 +82,8 @@
       <workItem from="1580053216663" duration="13328000" />
       <workItem from="1580157449572" duration="16844000" />
       <workItem from="1580239807928" duration="606000" />
-      <workItem from="1580327803766" duration="8941000" />
+      <workItem from="1580327803766" duration="9701000" />
+      <workItem from="1580409578215" duration="10785000" />
     </task>
     <servers />
   </component>
