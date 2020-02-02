@@ -2,6 +2,9 @@
 A practice use Express + NodeJS + Mongodb  
 - [Express official document](http://expressjs.com/)
 
+- [Day5](#Day5)
+  - [Progress](#Progress-day5)
+  - [Problems](#Problems-day5)
 - [Day4](#Day4)
   - [Progress](#Progress-day4)
 - [Day3](#Day3)
@@ -15,9 +18,12 @@ A practice use Express + NodeJS + Mongodb
 
 # Day5
 ## Progress-day5
+- Implement sign in and sign out page.  
+
 ## Problems-day5
-- render: 
-- exec: 
+- [ ] In sign up, gender default is set as none, but in the web shows female(the first choice) 
+- render: `res.render(file, option)` is to put data to corresponding template.
+- exec: tests for a match in a string. This method returns the matched text if it finds a match, otherwise it returns null.
 
 # Day4
 ## Progress-day4
